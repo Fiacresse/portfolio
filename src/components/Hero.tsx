@@ -78,7 +78,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            JE CONÇOIS.
+            I DESIGN.
           </motion.h1>
 
           <motion.h1
@@ -86,7 +86,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            JE <span>CODE.</span>
+            I <span>CODE.</span>
           </motion.h1>
 
           <motion.h1
@@ -94,7 +94,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            JE CRÉE.
+            I CREATE.
           </motion.h1>
         </div>
 
