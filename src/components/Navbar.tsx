@@ -17,12 +17,12 @@ export default function Navbar() {
         <a href="#about">À propos</a>
         <a href="#skills">Compétences</a>
         <a href="#projects">Projets</a>
-        <a href="#design">Design</a>
+        <a href="#design">Conception</a>
         <a href="#content">Contenu</a>
       </nav>
 
       <a href="#contact" className="navbar-contact">
-        Let's talk
+        Parlons-en
         <ArrowUpRight size={16} />
       </a>
     </motion.header>

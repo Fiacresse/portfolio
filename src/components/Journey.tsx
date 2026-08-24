@@ -15,15 +15,15 @@ const journey = [
   },
   {
     year: "2025 — 2026",
-    title: "UI/UX & Design",
+    title: "UI/UX et conception",
     description:
-      "Développement de ma créativité et de mes compétences en conception d'interfaces avec Figma, en travaillant sur l'expérience utilisateur et le design responsive.",
+      "Développement de ma créativité et de mes compétences en conception d'interfaces avec Figma, en travaillant sur l'expérience utilisateur et la conception adaptative.",
   },
   {
     year: "2026 →",
     title: "Création de contenu",
     description:
-      "Je débute progressivement dans la création de contenu autour de la technologie, du design, du développement et de mon évolution dans le numérique.",
+      "Je débute progressivement dans la création de contenu autour de la technologie, de la conception, du développement et de mon évolution dans le numérique.",
   },
   {
     year: "Objectif",
@@ -73,8 +73,8 @@ export default function Journey() {
 
           <p>
             Mon parcours évolue entre informatique, développement,
-            design et création, avec une ambition tournée vers
-            l'Intelligence Artificielle et le Big Data.
+            conception et création, avec une ambition tournée vers
+            l'Intelligence Artificielle et les mégadonnées.
           </p>
         </motion.div>
 

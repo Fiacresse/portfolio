@@ -40,7 +40,7 @@ export default function Content() {
         </motion.h2>
 
         <motion.p variants={itemVariants}>
-          J'explore la création de contenu autour de la technologie, du design,
+          J'explore la création de contenu autour de la technologie, de la conception,
           du développement et de mon parcours en tant que jeune créatif dans la tech.
         </motion.p>
 

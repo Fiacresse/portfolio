@@ -57,15 +57,6 @@ export default function Contact() {
           </a>
         </motion.div>
 
-        <motion.a
-          href="mailto:fiacresseagbodo@gmail.com"
-          variants={itemVariants}
-          className="contact-button"
-          whileHover={{ scale: 1.05, boxShadow: "0 15px 40px rgba(168, 139, 255, 0.4)" }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Dis bonjour →
-        </motion.a>
       </motion.div>
     </section>
   );

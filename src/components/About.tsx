@@ -72,7 +72,7 @@ export default function About() {
           <h2>
             Esprit créatif,
             <br />
-            <span>passionnée de tech.</span>
+            <span>passionnée de technologie.</span>
           </h2>
         </motion.div>
 
@@ -83,14 +83,14 @@ export default function About() {
         >
           <p>
             Je suis <strong>Fiacresse Agbodo</strong>, une jeune passionnée
-            par la technologie et la création digitale.
+            par la technologie et la création numérique.
           </p>
 
           <p>
             J'aime concevoir des interfaces modernes, développer des
             expériences web et transformer des idées en projets concrets.
             Mon parcours se situe à la croisée du
-            <strong> développement</strong>, du <strong>design</strong> et
+            <strong> développement</strong>, de la <strong>conception</strong> et
             de la <strong>créativité</strong>.
           </p>
 
@@ -99,7 +99,7 @@ export default function About() {
             apprendre de nouvelles choses et à développer mes compétences.
             Aujourd'hui, je m'intéresse également à la création de contenu
             et je souhaite continuer à évoluer dans le domaine de
-            l'Intelligence Artificielle et du Big Data.
+            l'Intelligence Artificielle et des mégadonnées.
           </p>
         </motion.div>
 

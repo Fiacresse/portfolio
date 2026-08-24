@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 const designs = [
   {
     number: "04",
-    title: "Système de conception du tableau de bord et de l'interface utilisateur",
+    title: "Système de conception de tableaux de bord et d'interfaces utilisateur",
     category: "Prototypes Figma",
     description: "Collection de maquettes, prototypes interactifs et systèmes de conception créés sous Figma pour des tableaux de bord financiers, historiques de transactions et formulaires complexes.",
-    tools: ["Figma", "Auto-layout", "Variants", "Interactive Prototyping", "Micro-interactions"],
+    tools: ["Figma", "Mise en page automatique", "Variantes", "Prototypage interactif", "Micro-interactions"],
     highlights: [
       "Composants réutilisables prêts pour l'intégration React / Flutter",
       "Travail approfondi sur la hiérarchie visuelle, l'ergonomie et le mode sombre"
@@ -14,12 +14,12 @@ const designs = [
   },
   {
     number: "05",
-    title: "Application Mobile E-commerce",
-    category: "Design Mobile",
-    description: "Maquettes complètes pour une application mobile de commerce électronique avec parcours utilisateur, onboarding et checkout optimisé.",
-    tools: ["Figma", "Mobile Design", "User Flows", "Prototyping"],
+    title: "Application mobile de commerce électronique",
+    category: "Conception mobile",
+    description: "Maquettes complètes pour une application mobile de commerce électronique avec parcours utilisateur, prise en main et paiement optimisé.",
+    tools: ["Figma", "Conception mobile", "Parcours utilisateur", "Prototypage"],
     highlights: [
-      "Design responsive pour iOS et Android",
+      "Conception adaptative pour iOS et Android",
       "Optimisation du taux de conversion et de l'expérience utilisateur"
     ]
   },

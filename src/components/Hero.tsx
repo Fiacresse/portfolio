@@ -2,7 +2,7 @@ import { motion, useMotionValue, useScroll, useSpring, useTransform } from "fram
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import "./Hero.css";
 
-const roles = ["Web Developer", "UI/UX Designer", "Content Creator"];
+const roles = ["Développeuse web", "Conceptrice UI/UX", "Créatrice de contenu"];
 
 export default function Hero() {
   const { scrollYProgress } = useScroll();
@@ -69,7 +69,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          HELLO, I'M FIACRESSE 👋🏽
+          BONJOUR, JE SUIS FIACRESSE 👋🏽
         </motion.p>
 
         <div className="hero-title">
@@ -78,7 +78,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            I DESIGN.
+            JE CONÇOIS.
           </motion.h1>
 
           <motion.h1
@@ -86,7 +86,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            I <span>CODE.</span>
+            JE <span>CODE.</span>
           </motion.h1>
 
           <motion.h1
@@ -94,7 +94,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            I CREATE.
+            JE CRÉE.
           </motion.h1>
         </div>
 
@@ -114,8 +114,8 @@ export default function Hero() {
           </div>
 
           <p className="hero-description">
-            I create digital experiences where design, technology
-            and creativity meet.
+            Je crée des expériences numériques à la croisée du design,
+            de la technologie et de la créativité.
           </p>
         </motion.div>
 
@@ -126,12 +126,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <a href="#projects" className="primary-btn">
-            Explore my work
+            Découvrir mes projets
             <ArrowUpRight size={18} />
           </a>
 
           <a href="#about" className="secondary-btn">
-            More about me
+            En savoir plus
           </a>
         </motion.div>
       </motion.div>
@@ -142,7 +142,7 @@ export default function Hero() {
         transition={{ duration: 1.5, repeat: Infinity }}
       >
         <ArrowDown size={18} />
-        <span>SCROLL TO EXPLORE</span>
+        <span>DÉFILEZ POUR EXPLORER</span>
       </motion.div>
 
       <div className="hero-number">01 / 06</div>

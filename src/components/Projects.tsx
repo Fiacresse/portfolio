@@ -11,20 +11,20 @@ const projects = [
       "Architecture événementielle entièrement découplée et réactive en temps réel",
       "Modélisation avancée des flux de transactions avec sécurité cryptographique",
       "Projet soutenance de fin d'études — Validé et déployé en production",
-      "📊 Performance: <100ms latency, 99.9% uptime"
+      "📊 Performances : latence inférieure à 100 ms, disponibilité de 99,9 %"
     ]
   },
   {
     number: "02",
     title: "TontiPro",
     subtitle: "Secrétaire de Tontine Digitale",
-    description: "Solution SaaS complète pour automatiser et sécuriser la gestion des tontines. Permet à 50+ groupes de gérer leurs cotisations et tirages sans friction, avec traçabilité complète.",
+    description: "Solution en ligne complète pour automatiser et sécuriser la gestion des tontines. Elle permet à plus de 50 groupes de gérer leurs cotisations et tirages simplement, avec une traçabilité complète.",
     stack: ["Laravel", "React", "PostgreSQL", "Tailwind CSS"],
     highlights: [
-      "Projet collaboratif 8+ semaines : conception UX/UI, backend, déploiement et support client",
+      "Projet collaboratif de plus de 8 semaines : conception UX/UI, développement serveur, déploiement et assistance client",
       "Tableau de bord temps réel : suivi des cotisations, calendrier des tirages, alertes automatiques",
-      "Système de permissions granulaires avec audit trail complet pour transparence",
-      "📊 Résultat : Déploiement auprès de 50+ groupes avec taux d'adoption de 90%"
+      "Système de permissions détaillées avec historique complet pour garantir la transparence",
+      "📊 Résultat : déploiement auprès de plus de 50 groupes avec un taux d'adoption de 90 %"
     ]
   },
 ];
@@ -60,7 +60,7 @@ export default function Projects() {
         whileInView="visible"
         viewport={{ once: false, amount: 0.2 }}
       >
-        <motion.h2 variants={itemVariants}>FIACRESSE — Digital Creative</motion.h2>
+        <motion.h2 variants={itemVariants}>FIACRESSE — Création numérique</motion.h2>
 
         <motion.div variants={containerVariants}>
           {projects.map((project) => (
@@ -80,7 +80,7 @@ export default function Projects() {
               <p className="project-description">{project.description}</p>
 
               <div className="project-stack">
-                <span>Stack Tech :</span>
+                <span>Technologies :</span>
                 {project.stack.map((tech) => (
                   <motion.span 
                     key={tech} 
