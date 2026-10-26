@@ -26,6 +26,7 @@ const designs = [
   {
     number: "06",
     title: "Lens-light",
+    url: "https://lens-ligth.vercel.app/",
     category: "Portfolio photographie · UI/UX & front-end",
     description: "Conception UI/UX et intégration d'un portfolio créatif dédié à la photographie. Accent mis sur le rendu visuel, la fluidité de la galerie et la sobriété de l'interface.",
     tools: ["Figma", "Galerie photo", "Design responsive", "Animations douces", "Front-end"],
@@ -130,6 +131,18 @@ export default function Design() {
                   <li key={index}>{highlight}</li>
                 ))}
               </ul>
+
+              {"url" in design && (
+                <a
+                  className="design-link"
+                  href={design.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Découvrir le site et ses visuels
+                  <span aria-hidden="true">↗</span>
+                </a>
+              )}
             </motion.article>
           ))}
         </motion.div>

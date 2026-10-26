@@ -651,6 +651,22 @@ body {
   font-weight: bold;
 }
 
+#design article .design-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  color: #a88bff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#design article .design-link:hover {
+  color: #f5f2eb;
+}
+
 /* =========================
    JOURNEY
 ========================= */
