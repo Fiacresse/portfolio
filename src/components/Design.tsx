@@ -23,6 +23,29 @@ const designs = [
       "Optimisation du taux de conversion et de l'expérience utilisateur"
     ]
   },
+  {
+    number: "06",
+    title: "Lens-light",
+    category: "Portfolio photographie · UI/UX & front-end",
+    description: "Conception UI/UX et intégration d'un portfolio créatif dédié à la photographie. Accent mis sur le rendu visuel, la fluidité de la galerie et la sobriété de l'interface.",
+    tools: ["Figma", "Galerie photo", "Design responsive", "Animations douces", "Front-end"],
+    highlights: [
+      "Maquette Figma pensée pour une navigation fluide et des visuels grand format",
+      "Interface responsive avec mode sombre et typographie épurée"
+    ]
+  },
+  {
+    number: "07",
+    title: "NexHub",
+    category: "Plateforme web · Dashboard & Design System",
+    description: "Design UI/UX et architecture front-end pour la plateforme NexHub. Élaboration d'un Design System complet sur Figma et développement de composants modularisés sous React et Tailwind CSS.",
+    tools: ["Figma", "React", "Vite", "Tailwind CSS", "Git"],
+    highlights: [
+      "Création d'un Design System avec composants réutilisables : boutons, cartes, formulaires, modales et tableaux de bord",
+      "Organisation claire des espaces de travail et affichage lisible des données",
+      "Workflow Git rigoureux avec branches de fonctionnalités et environnements beta, staging et main"
+    ]
+  },
 ];
 
 const containerVariants = {
@@ -56,11 +79,11 @@ export default function Design() {
         whileInView="visible"
         viewport={{ once: false, amount: 0.2 }}
       >
-        <motion.h2 variants={itemVariants}>Prototypes Figma</motion.h2>
+        <motion.h2 variants={itemVariants}>Design & expérience numérique</motion.h2>
 
         <motion.p variants={itemVariants}>
-          Des interfaces épurées, intuitives et centrées sur l'expérience utilisateur.
-          Plusieurs projets et maquettes réalisés avec attention aux détails.
+          Des interfaces épurées et intuitives, de la maquette Figma à l'intégration web.
+          Découvrez des projets pensés pour une expérience visuelle fluide et responsive.
         </motion.p>
 
         <motion.div variants={containerVariants}>
