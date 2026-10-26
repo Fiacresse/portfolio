@@ -788,11 +788,11 @@ body {
   transform: translateY(-50%);
 }
 
-#content > p:first-child {
+#content .content-eyebrow {
   color: #a88bff;
   font-size: 0.7rem;
   letter-spacing: 0.25em;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
@@ -809,23 +809,33 @@ body {
   z-index: 1;
 }
 
-#content > p:nth-child(3) {
+#content .content-description {
   color: #9a96a3;
   line-height: 1.8;
   max-width: 700px;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
   font-size: 1.15rem;
   position: relative;
   z-index: 1;
 }
 
-#content button {
+#content .content-note {
+  color: #a88bff;
+  line-height: 1.7;
+  margin: 0 0 2rem;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 1;
+}
+
+#content .content-button {
+  display: inline-flex;
+  align-items: center;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #9a96a3;
+  color: #f5f2eb;
   padding: 1.25rem 2.5rem;
   border-radius: 8px;
-  cursor: pointer;
   font-size: 0.95rem;
   font-weight: 500;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -833,9 +843,10 @@ body {
   backdrop-filter: blur(10px);
   position: relative;
   z-index: 1;
+  text-decoration: none;
 }
 
-#content button:hover {
+#content .content-button:hover {
   background: rgba(168, 139, 255, 0.15);
   border-color: rgba(168, 139, 255, 0.3);
   color: #f5f2eb;

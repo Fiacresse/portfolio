@@ -31,17 +31,22 @@ export default function Content() {
         whileInView="visible"
         viewport={{ once: false, amount: 0.2 }}
       >
-        <motion.p variants={itemVariants}>
-          CRÉATION DE CONTENU
+        <motion.p className="content-eyebrow" variants={itemVariants}>
+          MONTAGE VIDÉO & CRÉATION DE CONTENU
         </motion.p>
 
         <motion.h2 variants={itemVariants}>
-          Je débute tout juste.
+          Des vidéos qui captent l’attention.
         </motion.h2>
 
-        <motion.p variants={itemVariants}>
-          J'explore la création de contenu autour de la technologie, de la conception,
-          du développement et de mon parcours en tant que jeune créatif dans la tech.
+        <motion.p className="content-description" variants={itemVariants}>
+          UI/UX Designer et développeuse web, je crée des montages dynamiques pour
+          l’e-commerce et les réseaux sociaux : formats courts, Reels et TikTok,
+          sous-titres animés et rythme soigné.
+        </motion.p>
+
+        <motion.p className="content-note" variants={itemVariants}>
+          Extraits et démonstrations disponibles sur demande.
         </motion.p>
 
         <motion.a
@@ -53,7 +58,7 @@ export default function Content() {
           whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(168, 139, 255, 0.3)" }}
           whileTap={{ scale: 0.95 }}
         >
-          Suivre sur YouTube →
+          Découvrir ma chaîne YouTube →
         </motion.a>
       </motion.div>
     </section>
